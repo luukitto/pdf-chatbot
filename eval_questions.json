@@ -1,0 +1,19 @@
+[
+  {"question": "Where do the authors of this paper work?", "evidence": "Google Brain"},
+  {"question": "How many layers are stacked in the encoder?", "evidence": "stack of N = 6 identical layers"},
+  {"question": "Why are the dot products divided by the square root of the key dimension?", "evidence": "dot products grow large in magnitude"},
+  {"question": "How many attention heads does the model use?", "evidence": "h = 8 parallel attention layers"},
+  {"question": "How big is the hidden layer of the feed-forward network?", "evidence": "dff = 2048"},
+  {"question": "How does the model know the order of words without recurrence?", "evidence": "relative or absolute position"},
+  {"question": "How does the computational cost of self-attention compare to recurrent layers?", "evidence": "faster than recurrent layers"},
+  {"question": "Which optimizer was used for training?", "evidence": "Adam optimizer"},
+  {"question": "How does the learning rate change during training?", "evidence": "warmup_steps"},
+  {"question": "How big was the English-French training dataset?", "evidence": "36M sentences"},
+  {"question": "What hardware was the model trained on?", "evidence": "8 NVIDIA P100 GPUs"},
+  {"question": "What dropout rate was used for the base model?", "evidence": "Pdrop = 0.1"},
+  {"question": "What value of label smoothing was used and what effect did it have?", "evidence": "ϵls = 0.1"},
+  {"question": "Which beam size was used when decoding translations?", "evidence": "beam size of 4"},
+  {"question": "What happens to quality when using only one attention head?", "evidence": "0.9 BLEU worse"},
+  {"question": "How well does the Transformer do on English constituency parsing?", "evidence": "better results than all previously reported models"},
+  {"question": "Which attention heads seem to perform anaphora resolution?", "evidence": "anaphora resolution"}
+]
